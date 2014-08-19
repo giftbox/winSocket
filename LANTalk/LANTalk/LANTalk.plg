@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LANTalk - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP48F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/LANTalk.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\CODE\³ÉÆ·´úÂë\SOCKET\SOCKET_SRC\LANTalk\LANTalk\LANTalkDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP48F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP490.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/LANTalk.pdb" /debug /machine:I386 /out:"Debug/LANTalk.exe" /pdbtype:sept 
+".\Debug\LANTalk.obj"
+".\Debug\LANTalkDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TRAYICON.OBJ"
+".\Debug\LANTalk.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP490.tmp"
+<h3>Output Window</h3>
+Compiling...
+LANTalkDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+LANTalk.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
